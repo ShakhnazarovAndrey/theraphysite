@@ -1,0 +1,1573 @@
+/* line 1, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/resets.scss */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* line 1, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/resets.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 1, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/resets.scss */
+html {
+  height: 100%;
+}
+
+/* line 1, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/resets.scss */
+body {
+  line-height: 1;
+}
+
+/* line 1, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/resets.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 1, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/resets.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 1, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/resets.scss */
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 1, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/resets.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+/* line 11, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/normalizez.scss */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+/* line 23, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/normalizez.scss */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+/* line 31, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/normalizez.scss */
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+/* line 40, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/normalizez.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+/* line 53, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/normalizez.scss */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 64, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/normalizez.scss */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+/* line 76, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/normalizez.scss */
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+/* line 85, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/normalizez.scss */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+/* line 95, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/normalizez.scss */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 105, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/normalizez.scss */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+/* line 116, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/normalizez.scss */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+/* line 125, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/normalizez.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 133, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/normalizez.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 137, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/normalizez.scss */
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+/* line 148, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/normalizez.scss */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+/* line 160, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/normalizez.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+/* line 176, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/normalizez.scss */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+/* line 186, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/normalizez.scss */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+/* line 195, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/normalizez.scss */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+/* line 206, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/normalizez.scss */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+/* line 218, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/normalizez.scss */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+/* line 229, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/normalizez.scss */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+/* line 240, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/normalizez.scss */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+/* line 253, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/normalizez.scss */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+/* line 261, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/normalizez.scss */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+/* line 270, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/normalizez.scss */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+/* line 280, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/normalizez.scss */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+/* line 290, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/normalizez.scss */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+/* line 299, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/normalizez.scss */
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+/* line 308, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/normalizez.scss */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+/* line 320, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/normalizez.scss */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+/* line 328, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/normalizez.scss */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+/* line 339, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/normalizez.scss */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+/* line 347, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/normalizez.scss */
+[hidden] {
+  display: none;
+}
+
+@font-face {
+  font-family: 'SfBlack';
+  src: url("../fonts/SF-Pro-Display-Black.otf");
+}
+
+@font-face {
+  font-family: 'SfHeavy';
+  src: url("../fonts/SF-Pro-Display-Heavy.otf");
+}
+
+@font-face {
+  font-family: 'SfRegular';
+  src: url("../fonts/SF-Pro-Display-Regular.otf");
+}
+
+@font-face {
+  font-family: 'LumiosMark';
+  src: url("../fonts/Lumios_Marker_0.otf");
+}
+
+/* line 17, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+body {
+  background: #FFFFFF;
+}
+
+/* line 19, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* line 23, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+h1 {
+  margin: 0;
+}
+
+/* line 25, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+.hero {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  background: #E5E1BE;
+}
+
+/* line 35, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+.hero__img {
+  width: 97px;
+  position: relative;
+  top: 25px;
+  left: 563px;
+}
+
+/* line 42, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+.hero__txt {
+  font-size: 38px;
+  color: #199B35;
+  text-align: center;
+  left: 226px;
+  top: -27px;
+  position: relative;
+  font-family: 'LumiosMark';
+}
+
+/* line 52, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+.hero__title {
+  font-size: 150px;
+  color: #199B35;
+  text-align: center;
+  position: relative;
+  font-family: 'LumiosMark';
+}
+
+/* line 60, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+.hero__title2 {
+  font-size: 25px;
+  color: #199B35;
+  text-align: center;
+  top: 0px;
+  position: relative;
+  font-family: 'SfRegular';
+  line-height: 35.5px;
+}
+
+/* line 69, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+.hero__grass {
+  position: relative;
+  z-index: 10000;
+  top: -404px;
+  left: -377px;
+}
+
+/* line 75, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+.left-wrapper {
+  position: relative;
+}
+
+/* line 77, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+.left-wrapper p {
+  right: -216px;
+  position: relative;
+  color: #199B35;
+}
+
+/* line 81, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+.right-wrapper {
+  position: absolute;
+  right: -7px;
+  top: 64px;
+  z-index: 0;
+}
+
+/* line 86, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+.right-wrapper img {
+  width: 685px;
+  height: 597px;
+}
+
+/* line 91, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+.about {
+  min-height: 990px;
+  background: #FFFBF6;
+}
+
+/* line 94, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+.about__cards-box {
+  display: inline-flex;
+}
+
+/* line 96, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+.about__text {
+  color: #2C2C2C;
+  font-size: 48px;
+  margin: 0;
+  padding-top: 49px;
+  padding-left: 12px;
+}
+
+/* line 106, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+.cards-item__text {
+  font-family: 'MontserratTr';
+  font-weight: 400;
+  font-size: 20px;
+  margin-top: 29px;
+  margin-left: 44px;
+  width: 313px;
+  height: 96px;
+  top: -17px;
+  position: relative;
+}
+
+/* line 118, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+.cards-item__mini {
+  margin-top: 193px;
+  margin-left: 12px;
+  margin-right: 20px;
+}
+
+/* line 123, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+.cards-item__mini img {
+  width: 365px;
+  border-radius: 21px;
+}
+
+/* line 127, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+.cards-item__max1 {
+  position: relative;
+  margin-right: 20px;
+  top: 64px;
+}
+
+/* line 131, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+.cards-item__max1 img {
+  width: 366px;
+  height: 522px;
+  border-radius: 21px;
+}
+
+/* line 136, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+.cards-item__max2 {
+  top: 0;
+  position: relative;
+}
+
+/* line 139, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+.cards-item__max2 img {
+  width: 366px;
+  height: 522px;
+  border-radius: 21px;
+}
+
+/* line 143, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+.cards-item__max2 button {
+  width: 289px;
+  height: 35px;
+  background: #A38864;
+  border-radius: 16px;
+  border: none;
+  font-size: 12px;
+  font-family: 'MontserratTr';
+  color: #fff;
+  top: 190px;
+  position: relative;
+  left: 33px;
+}
+
+/* line 157, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+.reviews {
+  position: relative;
+  background: #E5E1BE;
+  background-size: cover;
+  min-height: 537px;
+  background-position: center;
+  padding: 80px 0;
+  color: white;
+}
+
+/* line 166, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+.reviews__content-container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 171, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+.reviews__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* line 176, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+.reviews__title {
+  font-family: 'DzimaaA';
+  font-size: 48px;
+  line-height: 1.3;
+  color: black;
+  margin-left: 32px;
+  margin-bottom: 40px;
+  max-width: 500px;
+}
+
+/* line 185, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+.reviews__card {
+  position: relative;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 20px;
+  padding: 40px;
+  color: #000;
+  max-height: 607px;
+  width: 558px;
+  align-self: flex-end;
+  top: -112px;
+}
+
+/* line 197, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+.reviews__slide {
+  transform: translateX(100%);
+  transition: all 0.8s ease-in-out;
+  opacity: 0;
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* line 205, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+.reviews__slide.active {
+  opacity: 1;
+  display: flex;
+  transform: translateX(0);
+}
+
+/* line 210, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+.reviews__avatar {
+  width: 74px;
+  height: 74px;
+  overflow: hidden;
+  margin-bottom: 16px;
+}
+
+/* line 216, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+.reviews__avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* line 222, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+.reviews__text p {
+  margin-bottom: 16px;
+  line-height: 1.5;
+  color: #333;
+  font-family: 'MontserratTr';
+}
+
+/* line 227, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+.reviews__text .reviews__name {
+  color: #199B35;
+  font-family: 'MontserratTr';
+  margin-top: 10px;
+}
+
+/* line 234, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+.reviews__bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  margin-top: 20px;
+}
+
+/* line 245, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+.reviews__btn {
+  background: #199B35;
+  color: white;
+  border: none;
+  border-radius: 16px;
+  font-size: 20px;
+  width: 232px;
+  height: 38px;
+  font-family: 'MontserratTr';
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* line 256, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+.reviews__btn:hover {
+  background: #199B35;
+}
+
+/* line 259, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+.reviews__arrows {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* line 264, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+.reviews .arrowww {
+  background: rgba(0, 0, 0, 0);
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+}
+
+/* line 275, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+.reviews .arrowww:hover {
+  background: #199B35;
+  color: #fff;
+  border: none;
+}
+
+/* line 279, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+.reviews .arrowww:hover img {
+  filter: brightness(0) invert(1);
+}
+
+/* line 283, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+.form-section {
+  padding: 80px 20px;
+}
+
+/* line 286, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+.form-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 60px;
+  border-radius: 60px;
+  background: #E5E1BE;
+}
+
+/* line 292, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 296, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+.form input {
+  width: 95%;
+  padding: 25px;
+  margin-bottom: 40px;
+  border-radius: 50px;
+  border: none;
+  font-size: 22px;
+  background: #FFFFFF;
+}
+
+/* line 305, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+.form input:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.1);
+}
+
+/* line 309, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+.form button {
+  align-self: flex-end;
+  padding: 20px 60px;
+  border-radius: 40px;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  background: #FFFFFF;
+  transition: 0.3s;
+}
+
+/* line 319, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+.form button:hover {
+  transform: scale(1.05);
+}
+
+/* line 322, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+.form button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* line 327, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/* line 338, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+.popup__content {
+  background: white;
+  padding: 40px 60px;
+  border-radius: 20px;
+  font-size: 24px;
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* line 354, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+.ceo {
+  min-height: 1146px;
+  background: #FFFBF6;
+}
+
+/* line 357, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+.ceo__cardss-box {
+  display: inline-flex;
+  margin-left: 109px;
+  position: relative;
+  top: -99px;
+}
+
+/* line 362, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+.ceo__text {
+  color: #2C2C2C;
+  font-size: 48px;
+  margin: 0;
+  padding-top: 49px;
+  padding-left: 12px;
+}
+
+/* line 371, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+.cards-itemm__text1 {
+  top: 620px;
+}
+
+/* line 373, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+.cards-itemm__text1 span {
+  top: -568px;
+  position: relative;
+}
+
+/* line 376, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+.cards-itemm__text2 {
+  top: -26px;
+}
+
+/* line 379, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+.cards-itemm__text2 span {
+  top: -577px;
+  position: relative;
+}
+
+/* line 383, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+.ceotxt {
+  font-family: 'MontserratTr';
+  font-weight: 400;
+  font-size: 20px;
+  margin-top: 29px;
+  width: 313px;
+  height: 96px;
+  position: relative;
+}
+
+/* line 397, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+.cards-itemm__maxx1 {
+  position: relative;
+  margin-right: 236px;
+  top: 64px;
+}
+
+/* line 401, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+.cards-itemm__maxx1 img {
+  width: 366px;
+  height: 522px;
+  border-radius: 21px;
+}
+
+/* line 406, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+.cards-itemm__maxx2 {
+  top: 187px;
+  position: relative;
+}
+
+/* line 410, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+.cards-itemm__maxx2 img {
+  width: 366px;
+  height: 522px;
+  border-radius: 21px;
+}
+
+/* line 414, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+.cards-itemm__maxx2 button {
+  width: 289px;
+  height: 35px;
+  background: #A38864;
+  border-radius: 16px;
+  border: none;
+  font-size: 12px;
+  font-family: 'MontserratTr';
+  color: #fff;
+  top: 190px;
+  position: relative;
+  left: 33px;
+}
+
+@media (max-width: 1199px) {
+  /* line 428, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+  .container {
+    width: 961px;
+  }
+  /* line 431, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+  .hero {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background: #E5E1BE;
+  }
+  /* line 442, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+  .hero__img {
+    width: 97px;
+    position: relative;
+    top: 25px;
+    left: 563px;
+  }
+  /* line 449, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+  .hero__txt {
+    font-size: 38px;
+    color: #199B35;
+    text-align: center;
+    left: 226px;
+    top: -27px;
+    position: relative;
+    font-family: 'LumiosMark';
+  }
+  /* line 459, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+  .hero__title {
+    font-size: 150px;
+    color: #199B35;
+    text-align: center;
+    position: relative;
+    font-family: 'LumiosMark';
+  }
+  /* line 467, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+  .hero__title2 {
+    font-size: 25px;
+    color: #199B35;
+    text-align: center;
+    top: 0px;
+    position: relative;
+    font-family: 'SfRegular';
+    line-height: 35.5px;
+  }
+  /* line 476, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+  .hero__grass {
+    position: relative;
+    z-index: 10000;
+    top: -404px;
+    left: -377px;
+  }
+  /* line 482, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+  .about {
+    min-height: 800px;
+    background: #FFFBF6;
+  }
+  /* line 485, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+  .about__cards-box {
+    display: inline-flex;
+  }
+  /* line 487, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+  .about__text {
+    color: #2C2C2C;
+    font-size: 38px;
+    margin: 0;
+    padding-top: 39px;
+    padding-left: 12px;
+  }
+  /* line 497, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+  .cards-item__text {
+    font-family: 'MontserratTr';
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 29px;
+    margin-left: 44px;
+    width: 249px;
+    height: 96px;
+  }
+  /* line 507, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+  .cards-item__mini {
+    margin-top: 193px;
+    margin-left: 12px;
+    margin-right: 15px;
+    width: 290px;
+    height: 260px;
+  }
+  /* line 513, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+  .cards-item__mini img {
+    width: 290px;
+    height: 260px;
+  }
+  /* line 516, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+  .cards-item__max1 {
+    position: relative;
+    margin-right: 15px;
+    top: 64px;
+    width: 290px;
+    height: 260px;
+  }
+  /* line 522, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+  .cards-item__max1 img {
+    width: 290px;
+    height: 415px;
+  }
+  /* line 526, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+  .cards-item__max2 {
+    top: 0;
+    position: relative;
+    width: 290px;
+    height: 260px;
+  }
+  /* line 531, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+  .cards-item__max2 img {
+    width: 290px;
+    height: 415px;
+  }
+  /* line 534, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+  .cards-item__max2 button {
+    top: 145px;
+  }
+  /* line 536, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+  .ceo {
+    min-height: 1146px;
+    background: #FFFBF6;
+  }
+  /* line 539, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+  .ceo__cardss-box {
+    display: inline-flex;
+    margin-left: 109px;
+    position: relative;
+    top: -99px;
+  }
+  /* line 544, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+  .ceo__text {
+    color: #2C2C2C;
+    font-size: 48px;
+    margin: 0;
+    padding-top: 49px;
+    padding-left: 12px;
+  }
+  /* line 553, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+  .cards-itemm__text1 {
+    top: 520px;
+  }
+  /* line 555, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+  .cards-itemm__text1 span {
+    top: -468px;
+    position: relative;
+  }
+  /* line 558, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+  .cards-itemm__text2 {
+    top: -26px;
+  }
+  /* line 561, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+  .cards-itemm__text2 span {
+    top: -462px;
+    position: relative;
+  }
+  /* line 565, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+  .ceotxt {
+    font-family: 'MontserratTr';
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 29px;
+    width: 313px;
+    height: 96px;
+    position: relative;
+  }
+  /* line 579, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+  .cards-itemm__maxx1 {
+    position: relative;
+    margin-right: 146px;
+    top: 64px;
+  }
+  /* line 583, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+  .cards-itemm__maxx1 img {
+    width: 290px;
+    height: 415px;
+    border-radius: 21px;
+  }
+  /* line 588, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+  .cards-itemm__maxx2 {
+    top: 187px;
+    position: relative;
+  }
+  /* line 592, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+  .cards-itemm__maxx2 img {
+    width: 290px;
+    height: 415px;
+    border-radius: 21px;
+  }
+  /* line 597, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+  .reviews__card {
+    left: -42px;
+    top: -65px;
+  }
+}
+
+@media (max-width: 961px) {
+  /* line 603, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+  .container {
+    width: 320px;
+  }
+  /* line 607, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+  .hero {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background: #E5E1BE;
+  }
+  /* line 617, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+  .hero__title {
+    font-size: 55px;
+  }
+  /* line 619, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+  .hero__txt {
+    font-size: 24px;
+    left: 95px;
+    top: 0;
+    width: 220px;
+  }
+  /* line 624, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+  .hero__title2 {
+    font-size: 15px;
+    top: 7px;
+    line-height: 18.5px;
+  }
+  /* line 628, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+  .hero__img {
+    width: 40px;
+    left: 143px;
+    top: -2px;
+  }
+  /* line 635, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+  .about {
+    padding-top: 48px;
+    background: #FFFBF6;
+  }
+  /* line 640, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+  .about__text {
+    font-size: 20px;
+    line-height: 1.3;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0;
+    margin-bottom: 16px;
+    text-align: center;
+  }
+  /* line 651, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+  .about__cards-box {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 15px;
+    gap: 109px;
+  }
+  /* line 659, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+  .cards-item {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    position: relative;
+  }
+  /* line 668, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+  .cards-item__btn {
+    width: 225px;
+    height: 32px;
+    background: #A38864;
+    font-family: 'MontserratTr';
+    font-size: 12px;
+    border: none;
+    color: #fff;
+    line-height: 2.15;
+    margin-bottom: 17px;
+    border-radius: 5px;
+  }
+  /* line 681, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+  .cards-item__img {
+    width: 292px;
+    height: 166px;
+    border-radius: 12px;
+    object-fit: cover;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  /* line 690, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+  .cards-item__img:hover {
+    transform: scale(1.02);
+  }
+  /* line 693, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+  .cards-item__text {
+    font-size: 14px;
+    margin-left: 0px;
+    width: auto;
+    margin-bottom: -3px;
+    max-height: 68px;
+    color: #2C2C2C;
+    font-family: 'MontserratTr';
+  }
+  /* line 702, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+  .cards-item__text span {
+    color: #A38864;
+    font-family: 'MontserratTsb';
+  }
+  /* line 707, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+  .cards-item__mini {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: 0;
+    margin-top: 0px;
+  }
+  /* line 713, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+  .cards-item__mini img {
+    width: 292px;
+    height: 166px;
+    position: relative;
+    top: 20px;
+  }
+  /* line 718, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+  .cards-item__max1 {
+    top: -60px;
+  }
+  /* line 721, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+  .cards-item__max1 img {
+    width: 292px;
+    height: 166px;
+  }
+  /* line 724, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+  .cards-item__max2 {
+    display: flex;
+    flex-direction: column-reverse;
+    top: -112px;
+  }
+  /* line 730, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+  .cards-item__max2 img {
+    width: 292px;
+    height: 166px;
+    margin-top: 20px;
+  }
+  /* line 734, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+  .cards-item__max2 button {
+    top: 0px;
+    left: 0;
+  }
+  /* line 737, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+  .ceo {
+    min-height: 1700px;
+    background: #FFFBF6;
+  }
+  /* line 741, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+  .ceo__cardss-box {
+    display: inline-flex;
+    margin-left: 0px;
+    position: relative;
+    top: -99px;
+    flex-direction: column;
+  }
+  /* line 747, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+  .ceo__text {
+    color: #2C2C2C;
+    font-size: 28px;
+    margin: 0;
+    padding-top: 49px;
+    padding-left: 12px;
+    left: 10px;
+    text-align: center;
+  }
+  /* line 759, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+  .cards-itemm__text1 {
+    top: 530px;
+  }
+  /* line 761, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+  .cards-itemm__text1 span {
+    top: -477px;
+    position: relative;
+    left: 0px;
+  }
+  /* line 765, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+  .cards-itemm__text2 {
+    top: -26px;
+  }
+  /* line 768, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+  .cards-itemm__text2 span {
+    top: -396px;
+    position: relative;
+  }
+  /* line 772, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+  .ceotxt {
+    font-family: 'MontserratTr';
+    font-weight: 400;
+    left: -8px;
+    font-size: 20px;
+    margin-top: 29px;
+    width: 284px;
+    height: 96px;
+    position: relative;
+  }
+  /* line 786, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+  .cards-itemm__maxx1 {
+    position: relative;
+    margin-right: 0px;
+    top: 87px;
+    left: 34px;
+  }
+  /* line 791, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+  .cards-itemm__maxx1 img {
+    width: 248px;
+    height: 340px;
+    border-radius: 21px;
+  }
+  /* line 796, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+  .cards-itemm__maxx2 {
+    left: 33px;
+    top: 630px;
+    position: relative;
+  }
+  /* line 801, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+  .cards-itemm__maxx2 img {
+    width: 248px;
+    height: 340px;
+    border-radius: 21px;
+  }
+  /* line 805, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+  .reviews {
+    position: relative;
+    background-image: url("../../img/showreal.png");
+    background-size: cover;
+    min-height: 650px;
+    background-position: center;
+    padding: 80px 0;
+    color: white;
+  }
+  /* line 814, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+  .reviews__content-container {
+    display: flex;
+    flex-direction: column;
+  }
+  /* line 819, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+  .reviews__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  /* line 824, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+  .reviews__title {
+    font-family: 'DzimaaA';
+    font-size: 27px;
+    line-height: 1.3;
+    color: #000000;
+    margin-left: 14px;
+    margin-bottom: 24px;
+    max-width: 500px;
+  }
+  /* line 833, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+  .reviews__card {
+    position: relative;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+    padding: 15px;
+    color: #000;
+    min-height: 331px;
+    width: 324px;
+    align-self: flex-end;
+    top: 0;
+    left: 15px;
+  }
+  /* line 846, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+  .reviews__slide {
+    transform: translateX(100%);
+    transition: all 0.8s ease-in-out;
+    opacity: 0;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  /* line 854, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+  .reviews.active {
+    opacity: 1;
+    display: flex;
+    transform: translateX(0);
+  }
+  /* line 859, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+  .reviews__avatar {
+    width: 74px;
+    height: 74px;
+    overflow: hidden;
+    margin-bottom: 16px;
+  }
+  /* line 865, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+  .reviews__avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  /* line 871, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+  .reviews__avatar__text p {
+    margin-bottom: 12px;
+    line-height: 1.5;
+    color: #333;
+    font-family: 'MontserratTr';
+    font-size: 12px;
+  }
+  /* line 877, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+  .reviews__name {
+    color: #b48b58;
+    font-family: 'MontserratTr';
+    margin-top: 10px;
+  }
+  /* line 884, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+  .reviews__name__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin-top: 20px;
+  }
+  /* line 895, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+  .reviews__name__btn {
+    background: #A38864;
+    color: white;
+    border: none;
+    border-radius: 16px;
+    font-size: 12px;
+    width: 154px;
+    height: 23px;
+    font-family: 'MontserratTr';
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  /* line 907, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+  .reviews__name__btn:hover {
+    background: #8f6c3e;
+  }
+  /* line 910, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+  .reviews__name__arrows {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  /* line 915, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+  .arrowww {
+    background: rgba(0, 0, 0, 0);
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+  }
+  /* line 926, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+  .arrowww:hover {
+    background: #A38864;
+    color: #fff;
+    border: none;
+  }
+  /* line 930, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+  .arrowww:hover img {
+    filter: brightness(0) invert(1);
+  }
+  /* line 932, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  /* line 936, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+  .form input {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 40px;
+    border-radius: 50px;
+    border: none;
+    font-size: 15px;
+    background: #FFFFFF;
+  }
+  /* line 944, ../../../../../../../../../../../../../Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/index.sass */
+  .form button {
+    align-self: flex-end;
+    padding: 10px 60px;
+    border-radius: 40px;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    background: #FFFFFF;
+    transition: 0.3s;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */

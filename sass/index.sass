@@ -1,0 +1,953 @@
+@import '/Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/resets.scss'
+@import '/Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/normalizez.scss'
+
+
+@font-face 
+  font-family: 'SfBlack'
+  src: url('../fonts/SF-Pro-Display-Black.otf')
+@font-face 
+  font-family: 'SfHeavy'
+  src: url('../fonts/SF-Pro-Display-Heavy.otf')
+@font-face 
+  font-family: 'SfRegular'
+  src: url('../fonts/SF-Pro-Display-Regular.otf')
+@font-face 
+  font-family: 'LumiosMark'
+  src: url('../fonts/Lumios_Marker_0.otf')
+body
+    background: #FFFFFF
+.container
+    max-width: 1200px
+    margin: 0 auto
+    position: relative
+h1
+    margin: 0
+.hero
+    
+
+    width: 100%
+    height: 100vh
+    position: relative
+    overflow: hidden
+    
+    background: #E5E1BE
+    
+    &__img
+        width: 97px
+        
+        position: relative
+        top: 25px
+        left: 563px
+
+    &__txt
+        font-size: 38px
+        color: #199B35
+        text-align: center
+        left: 226px
+        top: -27px
+        position: relative
+        font-family: 'LumiosMark'
+
+
+    &__title
+        font-size: 150px
+        color: #199B35
+        text-align: center
+        
+        position: relative
+        font-family: 'LumiosMark'
+        
+    &__title2
+        font-size: 25px
+        color: #199B35
+        text-align: center
+        top: 0px
+        position: relative
+        font-family: 'SfRegular'
+        line-height: 35.5px
+
+    &__grass
+        position: relative
+        z-index: 10000
+        top: -404px
+        left: -377px
+
+.left-wrapper
+    position: relative
+    p
+        right: -216px
+        position: relative
+        color: #199B35
+.right-wrapper
+    position: absolute
+    right: -7px
+    top: 64px
+    z-index: 0
+    img
+        width: 685px
+        height: 597px
+
+
+.about 
+  min-height: 990px
+  background: #FFFBF6
+  &__cards-box
+    display: inline-flex
+  &__text
+    color: #2C2C2C
+    font-size: 48px
+    margin: 0
+    padding-top: 49px
+    padding-left: 12px
+  
+.cards-item
+    
+
+    &__text
+        font-family: 'MontserratTr'
+        font-weight: 400
+        
+        font-size: 20px
+        margin-top: 29px
+        margin-left: 44px
+        width: 313px
+        height: 96px
+        top: -17px;
+        position: relative;
+    
+.cards-item__mini
+    margin-top: 193px
+    margin-left: 12px
+    margin-right: 20px
+    
+    img
+        width: 365px
+        border-radius: 21px
+        
+.cards-item__max1
+    position: relative
+    margin-right: 20px
+    top: 64px
+    img
+        width: 366px
+        height: 522px
+        border-radius: 21px
+    
+.cards-item__max2
+    top: 0
+    position: relative
+    img
+        width: 366px
+        height: 522px
+        border-radius: 21px
+    button
+        width: 289px
+        height: 35px
+        background: #A38864
+        border-radius: 16px
+        border: none
+        font-size: 12px
+        font-family: 'MontserratTr'
+        color: #fff
+        top: 190px
+        position: relative
+        left: 33px
+
+
+.reviews
+  position: relative
+  background: #E5E1BE
+  background-size: cover
+  min-height: 537px
+  background-position: center
+  padding: 80px 0
+  color: white
+
+  &__content-container
+
+    display: flex
+    flex-direction: column
+
+  &__inner
+    display: flex
+    flex-direction: column
+    align-items: flex-start
+
+  &__title
+    font-family: 'DzimaaA'
+    font-size: 48px
+    line-height: 1.3
+    color: black
+    margin-left: 32px
+    margin-bottom: 40px
+    max-width: 500px
+
+  &__card
+    position: relative
+    background: rgba(255,255,255,0.8)
+    border-radius: 20px
+    padding: 40px
+    color: #000
+    max-height: 607px
+    width: 558px
+    align-self: flex-end
+    top: -112px
+
+
+  &__slide
+    transform: translateX(100%)
+    transition: all 0.8s ease-in-out
+    opacity: 0
+    display: none
+    
+    flex-direction: column
+    align-items: flex-start
+    &.active
+      opacity: 1
+      display: flex
+      transform: translateX(0)
+
+  &__avatar
+    width: 74px
+    height: 74px
+    
+    overflow: hidden
+    margin-bottom: 16px
+    img
+      width: 100%
+      height: 100%
+      object-fit: cover
+
+  &__text
+    p
+      margin-bottom: 16px
+      line-height: 1.5
+      color: #333
+      font-family: 'MontserratTr'
+    .reviews__name
+      color: #199B35
+      font-family: 'MontserratTr'
+      margin-top: 10px
+      
+      
+
+  &__bottom
+    display: flex
+    justify-content: space-between
+    align-items: center
+    position: relative
+    margin-top: 20px
+    
+
+  
+    
+
+  &__btn
+    background: #199B35
+    color: white
+    border: none
+    border-radius: 16px
+    font-size: 20px
+    width: 232px
+    height: 38px
+    font-family: 'MontserratTr'
+    cursor: pointer
+    transition: 0.3s
+    &:hover
+      background: #199B35
+
+  &__arrows
+    display: flex
+    align-items: center
+    gap: 10px
+
+  .arrowww
+    background: rgba(0,0,0,0)
+    border: 1px solid black
+    border-radius: 50%
+    width: 35px
+    height: 35px
+    cursor: pointer
+    display: flex
+    align-items: center
+    justify-content: center
+    transition: 0.3s
+    &:hover
+      background: #199B35
+      color: #fff
+      border: none
+      img
+        filter: brightness(0) invert(1)
+
+
+.form-section
+  padding: 80px 20px
+
+.form-container
+  max-width: 900px
+  margin: 0 auto
+  padding: 60px
+  border-radius: 60px
+  background: #E5E1BE
+.form
+  display: flex
+  flex-direction: column
+
+  input
+    width: 95%
+    padding: 25px
+    margin-bottom: 40px
+    border-radius: 50px
+    border: none
+    font-size: 22px
+    background: #FFFFFF
+
+    &:focus
+      outline: none
+      box-shadow: 0 0 0 2px rgba(0,0,0,0.1)
+
+  button
+    align-self: flex-end
+    padding: 20px 60px
+    border-radius: 40px
+    border: none
+    font-size: 24px
+    cursor: pointer
+    background: #FFFFFF
+    transition: 0.3s
+
+    &:hover
+      transform: scale(1.05)
+
+    &:disabled
+      opacity: 0.6
+      cursor: not-allowed
+      transform: none
+
+.popup
+  position: fixed
+  top: 0
+  left: 0
+  width: 100%
+  height: 100%
+  display: none
+  justify-content: center
+  align-items: center
+  background: rgba(0,0,0,0.5)
+
+  &__content
+    background: white
+    padding: 40px 60px
+    border-radius: 20px
+    font-size: 24px
+    animation: fadeIn 0.3s ease
+
+@keyframes fadeIn
+  from
+    opacity: 0
+    transform: scale(0.9)
+  to
+    opacity: 1
+    transform: scale(1)
+
+
+.ceo
+  min-height: 1146px
+  background: #FFFBF6
+  &__cardss-box
+    display: inline-flex
+    margin-left: 109px
+    position: relative
+    top: -99px
+  &__text
+    color: #2C2C2C
+    font-size: 48px
+    margin: 0
+    padding-top: 49px
+    padding-left: 12px
+  
+.cards-itemm
+    
+    &__text1
+        top: 620px
+        span
+            top: -568px
+            position: relative
+    &__text2
+        top: -26px
+
+        span
+            top: -577px
+            position: relative
+
+.ceotxt
+    font-family: 'MontserratTr'
+    font-weight: 400
+    
+    font-size: 20px
+    margin-top: 29px
+    
+    width: 313px
+    height: 96px
+    
+    position: relative;
+    
+
+
+.cards-itemm__maxx1
+    position: relative
+    margin-right: 236px
+    top: 64px
+    img
+        width: 366px
+        height: 522px
+        border-radius: 21px
+    
+.cards-itemm__maxx2
+    top: 187px
+    position: relative
+    
+    img
+        width: 366px
+        height: 522px
+        border-radius: 21px
+    button
+        width: 289px
+        height: 35px
+        background: #A38864
+        border-radius: 16px
+        border: none
+        font-size: 12px
+        font-family: 'MontserratTr'
+        color: #fff
+        top: 190px
+        position: relative
+        left: 33px
+
+@media (max-width: 1199px)
+    .container 
+
+        width: 961px
+    .hero
+
+    
+
+        width: 100%
+        height: 100vh
+        position: relative
+        overflow: hidden
+        
+        background: #E5E1BE
+        
+        &__img
+            width: 97px
+            
+            position: relative
+            top: 25px
+            left: 563px
+
+        &__txt
+            font-size: 38px
+            color: #199B35
+            text-align: center
+            left: 226px
+            top: -27px
+            position: relative
+            font-family: 'LumiosMark'
+
+
+        &__title
+            font-size: 150px
+            color: #199B35
+            text-align: center
+            
+            position: relative
+            font-family: 'LumiosMark'
+            
+        &__title2
+            font-size: 25px
+            color: #199B35
+            text-align: center
+            top: 0px
+            position: relative
+            font-family: 'SfRegular'
+            line-height: 35.5px
+
+        &__grass
+            position: relative
+            z-index: 10000
+            top: -404px
+            left: -377px
+
+    .about 
+        min-height: 800px
+        background: #FFFBF6
+        &__cards-box
+            display: inline-flex
+        &__text
+            color: #2C2C2C
+            font-size: 38px
+            margin: 0
+            padding-top: 39px
+            padding-left: 12px
+  
+    .cards-item
+    
+
+        &__text
+            font-family: 'MontserratTr'
+            font-weight: 400
+            
+            font-size: 15px
+            margin-top: 29px
+            margin-left: 44px
+            width: 249px
+            height: 96px
+    
+    .cards-item__mini
+        margin-top: 193px
+        margin-left: 12px
+        margin-right: 15px
+        width: 290px
+        height: 260px
+        img
+            width: 290px
+            height: 260px
+    .cards-item__max1
+        position: relative
+        margin-right: 15px
+        top: 64px
+        width: 290px
+        height: 260px
+        img
+            width: 290px
+            height: 415px
+        
+    .cards-item__max2
+        top: 0
+        position: relative
+        width: 290px
+        height: 260px
+        img
+            width: 290px
+            height: 415px
+        button
+            top: 145px
+    .ceo
+        min-height: 1146px
+        background: #FFFBF6
+        &__cardss-box
+            display: inline-flex
+            margin-left: 109px
+            position: relative
+            top: -99px
+        &__text
+            color: #2C2C2C
+            font-size: 48px
+            margin: 0
+            padding-top: 49px
+            padding-left: 12px
+    
+    .cards-itemm
+        
+        &__text1
+            top: 520px
+            span
+                top: -468px
+                position: relative
+        &__text2
+            top: -26px
+
+            span
+                top: -462px
+                position: relative
+
+    .ceotxt
+        font-family: 'MontserratTr'
+        font-weight: 400
+        
+        font-size: 20px
+        margin-top: 29px
+        
+        width: 313px
+        height: 96px
+        
+        position: relative;
+        
+
+
+    .cards-itemm__maxx1
+        position: relative
+        margin-right: 146px
+        top: 64px
+        img
+            width: 290px
+            height: 415px
+            border-radius: 21px
+        
+    .cards-itemm__maxx2
+        top: 187px
+        position: relative
+        
+        img
+            width: 290px
+            height: 415px
+            border-radius: 21px
+    .reviews
+        &__card
+            left: -42px
+            top: -65px
+    
+    
+@media (max-width: 961px)
+    .container
+
+        width: 320px
+    
+    .hero
+
+        
+
+        width: 100%
+        height: 100vh
+        position: relative
+        overflow: hidden
+        
+        background: #E5E1BE
+        &__title
+            font-size: 55px
+        &__txt
+            font-size: 24px
+            left: 95px
+            top: 0
+            width: 220px
+        &__title2
+            font-size: 15px
+            top: 7px
+            line-height: 18.5px
+        &__img
+            width: 40px
+            left: 143px
+            top: -2px
+        
+    
+        
+    .about
+        padding-top: 48px
+        background: #FFFBF6
+       
+
+        &__text
+            font-size: 20px
+            line-height: 1.3
+            padding-left: 0px
+            padding-right: 0px
+            padding-top: 0
+            margin-bottom: 16px
+            text-align: center
+            
+            
+
+        &__cards-box
+            display: flex
+            flex-direction: column
+            position: relative
+            left: 15px
+            gap: 109px
+           
+
+    .cards-item
+        
+
+        display: flex
+        flex-direction: column-reverse   // ⬅️ ВАЖНО — переворачивает порядок
+        align-items: center
+        text-align: center
+        margin: 0
+        position: relative
+        &__btn
+            width: 225px
+            height: 32px
+            background: #A38864
+            font-family: 'MontserratTr'
+            font-size: 12px
+            border: none
+            color: #fff
+            line-height: 2.15
+            margin-bottom: 17px
+            border-radius: 5px
+
+
+        &__img
+
+            width: 292px
+            
+            height: 166px
+            border-radius: 12px
+            object-fit: cover
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1)
+            transition: transform 0.3s ease
+            &:hover
+                transform: scale(1.02)
+
+        &__text
+            font-size: 14px
+            margin-left: 0px
+            width: auto
+            margin-bottom: -3px
+            
+            max-height: 68px
+            color: #2C2C2C
+            font-family: 'MontserratTr'
+            span
+                color: #A38864
+                font-family: 'MontserratTsb'
+    
+             
+    .cards-item__mini
+        display: flex
+        flex-direction: column-reverse
+        margin-left: 0
+        margin-top: 0px
+
+        img
+            width: 292px
+            height: 166px
+            position: relative
+            top: 20px
+    .cards-item__max1
+        top: -60px
+        
+        img
+            width: 292px
+            height: 166px
+    .cards-item__max2
+        display: flex
+        flex-direction: column-reverse
+        top: -112px
+        
+        
+        img
+            width: 292px
+            height: 166px
+            margin-top: 20px
+        button
+            top: 0px
+            left: 0
+    .ceo
+
+        min-height: 1700px
+        background: #FFFBF6
+        &__cardss-box
+            display: inline-flex
+            margin-left: 0px
+            position: relative
+            top: -99px
+            flex-direction: column
+        &__text
+            color: #2C2C2C
+            font-size: 28px
+            margin: 0
+            padding-top: 49px
+            padding-left: 12px
+            left: 10px
+            text-align: center
+            
+    
+    .cards-itemm
+        
+        &__text1
+            top: 530px
+            span
+                top: -477px
+                position: relative
+                left: 0px
+        &__text2
+            top: -26px
+
+            span
+                top: -396px
+                position: relative
+
+    .ceotxt
+        font-family: 'MontserratTr'
+        font-weight: 400
+        left: -8px
+        font-size: 20px
+        margin-top: 29px
+        
+        width: 284px
+        height: 96px
+        
+        position: relative;
+        
+
+
+    .cards-itemm__maxx1
+        position: relative
+        margin-right: 0px
+        top: 87px
+        left: 34px
+        img
+            width: 248px
+            height: 340px
+            border-radius: 21px
+        
+    .cards-itemm__maxx2
+        left: 33px
+        top: 630px
+        position: relative
+        
+        img
+            width: 248px
+            height: 340px
+            border-radius: 21px
+    .reviews
+        position: relative
+        background-image: url('../../img/showreal.png')
+        background-size: cover
+        min-height: 650px
+        background-position: center
+        padding: 80px 0
+        color: white
+
+        &__content-container
+
+            display: flex
+            flex-direction: column
+
+        &__inner
+            display: flex
+            flex-direction: column
+            align-items: flex-start
+
+        &__title
+            font-family: 'DzimaaA'
+            font-size: 27px
+            line-height: 1.3
+            color: #000000
+            margin-left: 14px
+            margin-bottom: 24px
+            max-width: 500px
+
+        &__card
+            position: relative
+            background: rgba(255,255,255,0.8)
+            border-radius: 20px
+            padding: 15px
+            color: #000
+            min-height: 331px
+            width: 324px
+            align-self: flex-end
+            top: 0
+            left: 15px
+
+
+        &__slide
+            transform: translateX(100%)
+            transition: all 0.8s ease-in-out
+            opacity: 0
+            display: none
+        
+            flex-direction: column
+            align-items: flex-start
+        &.active
+            opacity: 1
+            display: flex
+            transform: translateX(0)
+
+        &__avatar
+            width: 74px
+            height: 74px
+        
+            overflow: hidden
+            margin-bottom: 16px
+            img
+                width: 100%
+                height: 100%
+                object-fit: cover
+
+            &__text
+                p
+                    margin-bottom: 12px
+                    line-height: 1.5
+                    color: #333
+                    font-family: 'MontserratTr'
+                    font-size: 12px
+    .reviews__name
+        color: #b48b58
+        font-family: 'MontserratTr'
+        margin-top: 10px
+        
+        
+
+        &__bottom
+            display: flex
+            justify-content: space-between
+            align-items: center
+            position: relative
+            margin-top: 20px
+        
+
+    
+      
+
+        &__btn
+            background: #A38864
+            color: white
+            border: none
+            border-radius: 16px
+            font-size: 12px
+            width: 154px
+            height: 23px
+            font-family: 'MontserratTr'
+            cursor: pointer
+            transition: 0.3s
+
+            &:hover
+                background: #8f6c3e
+
+        &__arrows
+            display: flex
+            align-items: center
+            gap: 10px
+
+    .arrowww
+      background: rgba(0,0,0,0)
+      border: 1px solid black
+      border-radius: 50%
+      width: 35px
+      height: 35px
+      cursor: pointer
+      display: flex
+      align-items: center
+      justify-content: center
+      transition: 0.3s
+      &:hover
+        background: #A38864
+        color: #fff
+        border: none
+        img
+          filter: brightness(0) invert(1)
+    .form
+        display: flex
+        flex-direction: column
+
+        input
+            width: 95%
+            padding: 10px
+            margin-bottom: 40px
+            border-radius: 50px
+            border: none
+            font-size: 15px
+            background: #FFFFFF
+        button
+            align-self: flex-end
+            padding: 10px 60px
+            border-radius: 40px
+            border: none
+            font-size: 15px
+            cursor: pointer
+            background: #FFFFFF
+            transition: 0.3s
+    

@@ -1,0 +1,400 @@
+@import '/Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/resets.scss'
+@import '/Users/andrejshahnazarov/Desktop/teraphy_project/src/sass/normalizez.scss'
+
+
+@font-face 
+  font-family: 'SfBlack'
+  src: url('../fonts/SF-Pro-Display-Black.otf')
+@font-face 
+  font-family: 'SfHeavy'
+  src: url('../fonts/SF-Pro-Display-Heavy.otf')
+body
+    background: #E5E1BE
+.container
+    max-width: 1200px
+    margin: 0 auto
+    position: relative
+
+.promo
+  padding: 60px 20px
+  background: #E5E1BE
+  min-height: 100vh
+
+  &__container
+    display: grid
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr))
+    gap: 20px
+    max-width: 1200px
+    margin: 0 auto
+
+  &__card
+    position: relative
+    overflow: hidden
+    border-radius: 24px
+    cursor: pointer
+    aspect-ratio: 3/4 
+
+    img
+      width: 100%
+      height: 100%
+      object-fit: cover
+      display: block
+      transition: transform 0.5s ease
+
+    &:hover img
+      transform: scale(1.05)
+
+    &:hover .promo__overlay
+      opacity: 1
+
+  &__overlay
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    background: rgba(0,0,0,0.5)
+    display: flex
+    
+    align-items: center
+    color: #fff
+    
+    
+    opacity: 0
+    transition: opacity 0.3s ease
+    p
+        position: relative
+        top: 150px
+        font-family: 'MontserratTr'
+        font-size: 24px
+        margin-left: 24px
+        
+
+.popup
+  position: fixed
+  top: 0
+  left: 0
+  width: 100%
+  height: 100%
+  background: rgba(0, 0, 0, 0.6)
+  display: none
+  justify-content: center
+  align-items: center
+  z-index: 1000
+  padding: 20px
+  &__num
+
+    font-size: 24px
+    color: black
+    font-weight: 600
+  &__contacts
+    color: #A38864
+    text-decoration: none
+
+  &.active
+    display: flex
+
+  &__content
+    background: #fff
+    border-radius: 32px
+    max-width: 1100px
+    width: 100%
+    position: relative
+    animation: fadeIn 0.4s ease
+    display: flex
+    flex-direction: column
+
+  &__inner
+    display: flex
+    flex-direction: row
+    align-items: stretch
+    gap: 30px
+
+    @media (max-width: 768px)
+      flex-direction: column
+
+  &__text
+    flex: 1
+    padding: 40px
+
+    h3
+      font-size: 28px
+      color: #4a3b24
+      margin-bottom: 20px
+      font-family: 'DzimaaA'
+
+    p
+      font-size: 16px
+      font-family: 'MontserratTr'
+      
+      color: black
+      margin-bottom: 15px
+      
+        
+      span
+        font-family: 'MontserratTsb'
+        font-weight: 600
+    
+
+  &__btn
+    background: #A38864
+    color: #fff
+    border: none
+    width: 401px
+    height: 48px
+    border-radius: 16px
+    font-size: 24px
+    cursor: pointer
+    margin-top: 114px
+    font-family: 'MontserratTr'
+    a
+        text-decoration: none
+        color: #fff
+        font-family: 'MontserratTr'
+
+
+    
+
+  &__image
+    margin-top: 36px
+    margin-right: 24px
+    margin-bottom: 36px
+    flex: 1
+    img
+      width: 475px
+      height: 423px
+      object-fit: cover
+      border-radius: 24px
+      
+
+  &__close
+    position: absolute
+    top: 15px
+    right: 20px
+    font-size: 30px
+    cursor: pointer
+    color: #b29367
+    transition: color 0.3s ease
+
+    &:hover
+      color: #3d3225
+
+@keyframes fadeIn
+  from
+    opacity: 0
+    transform: translateY(-10px)
+  to
+    opacity: 1
+    transform: translateY(0)
+@media (max-width: 1199px)
+
+    .container 
+
+        width: 961px
+    .promo
+        &__container
+            display: grid
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr))
+            gap: 20px
+            max-width: 1200px
+            margin: 0 auto
+        &__overlay
+
+            position: absolute
+            top: 0
+            left: 0
+            width: 100%
+            height: 100%
+            background: rgba(0,0,0,0.5)
+            display: flex
+            
+            align-items: center
+            color: #fff
+            
+            
+            opacity: 0
+            transition: opacity 0.3s ease
+            p
+                position: relative
+                top: 150px
+                font-family: 'MontserratTr'
+                font-size: 24px
+                margin-left: 24px
+    .popup
+        position: fixed
+        top: 0
+        left: 0
+        width: 100%
+        height: 100%
+        background: rgba(0, 0, 0, 0.6)
+        display: none
+        justify-content: center
+        align-items: center
+        z-index: 1000
+        padding: 20px
+        &__num
+
+            font-size: 24px
+            color: black
+            font-weight: 600
+        &__contacts
+            color: #A38864
+            text-decoration: none
+
+        &.active
+            display: flex
+            
+
+        &__content
+            background: #fff
+            border-radius: 32px
+            max-width: 1100px
+            width: 90%
+            position: relative
+            animation: fadeIn 0.4s ease
+            display: flex
+            flex-direction: column
+
+        &__inner
+            display: flex
+            flex-direction: row
+            align-items: stretch
+            gap: 30px
+@media (max-width:961px)
+
+
+
+    .container
+        width: 320px
+    
+    .promo
+        padding: 60px 0px
+        background: #E5E1BE
+
+        &__container
+            display: grid
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr))
+            gap: 20px
+            max-width: 1200px
+            margin: 0 auto
+
+        &__card
+            position: relative
+            overflow: hidden
+            border-radius: 24px
+            cursor: pointer
+
+            img
+                width: 319px
+                height: 430px
+                object-fit: cover
+                display: block
+                transition: transform 0.5s ease
+                object-fit: fill
+
+            &:hover img
+                transform: scale(1.05)
+
+            &:hover .promo__overlay
+                opacity: 1
+
+        &__overlay
+            position: absolute
+            top: 0
+            left: 0
+            width: 100%
+            height: 100%
+            background: rgba(0,0,0,0.5)
+            display: flex
+            
+            align-items: center
+            color: #fff
+            
+            
+            opacity: 0
+            transition: opacity 0.3s ease
+            p
+                position: relative
+                top: 100px
+                font-family: 'MontserratTr'
+                font-size: 19px
+                margin-left: 24px
+    .popup
+
+        position: fixed
+        top: 0
+        left: 0
+        width: 100%
+        height: 631px
+        background: rgba(0, 0, 0, 0.6)
+        display: none
+        justify-content: center
+        align-items: center
+        z-index: 1000
+        padding: 20px
+        &__close
+            position: absolute
+            top: -2px
+            right: 20px
+            font-size: 40px
+            cursor: pointer
+            z-index: 10
+            color: #b29367
+            transition: color 0.3s ease
+        &__btn
+            width: 274px
+            height: 25px
+            font-size: 16px
+            border-radius: 5px
+            margin-top: 24px
+
+        &__text
+            padding-top: 0px
+            padding-left: 8px
+            padding-right: 8px
+            margin: 0 auto
+            padding: 10px
+            h3
+                font-size: 20px
+            p
+                font-size: 10px
+                margin-bottom: 10px
+        &__image
+            margin-bottom: 24px
+            img
+                width: 100%
+                height: 192px
+                margin-left: 12px
+                object-fit: scale-down
+                
+        &__num
+
+            font-size: 10px
+            color: black
+            font-weight: 600
+        &__contacts
+            color: #A38864
+            text-decoration: none
+
+        &.active
+            display: flex
+            margin-top: 0
+            left: -20px
+            height: 100vh
+
+        &__content
+            background: #fff
+            border-radius: 32px
+            
+            
+            position: relative
+            animation: fadeIn 0.4s ease
+            display: flex
+            flex-direction: column
+
+        &__inner
+            display: flex
+            flex-direction: column-reverse
+
+            
+            gap: 0px
